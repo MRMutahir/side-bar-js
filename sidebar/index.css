@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.main-Navbar {
+    margin-left: 20px;
+    background-color: aqua;
+    height: 600px;
+    width: 20%;
+    padding: 40px;
+    position: relative;
+}
+.main-Navbar ul{
+    list-style: none;
+    /* margin-bottom: 20px; */
+}
+.main-Navbar li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+/* .main-none{
+    display: none;
+} */
+.side{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+    color: antiquewhite;
+    transition: all 1s ease-in-out;
+    /* transform: rotate(360deg); */
+}
+.side:hover{
+    transform: rotate(360deg);
+}
+.icon-bar{
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
